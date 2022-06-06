@@ -1,0 +1,23 @@
+.dataTable {
+	height: 600px;
+
+	.cellWithStatus {
+		padding: 5px;
+		border-radius: 5px;
+
+		&.NotStarted {
+			background-color: grey;
+			color: darkgrey;
+		}
+	}
+
+	.actionContainer {
+		display: flex;
+		.viewIcon,
+		.editIcon,
+		.deleteIcon {
+			padding: 10px;
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.container {
+	flex: 6;
+	background-color: #f9f9f9;
+	.welcomeContainer {
+		display: flex;
+		flex-direction: column;
+		margin: 15px 0px 0px 20px;
+		.greatings {
+			font-size: 28px;
+			font-weight: bold;
+		}
+	}
+
+	.mainContainer {
+		background-color: #fff;
+		margin: 20px;
+	}
+}

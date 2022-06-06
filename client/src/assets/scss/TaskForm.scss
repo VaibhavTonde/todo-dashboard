@@ -1,0 +1,125 @@
+.taskFormContainer {
+	flex: 6;
+	.welcomeContainer {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		margin: 20px;
+		.greatings {
+			font-size: 28px;
+			font-weight: bold;
+		}
+	}
+
+	// .formContainer {
+	// 	-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+	// 	box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+	// 	border-radius: 5px;
+	// 	margin: 2%;
+	// 	padding: 2%;
+	// 	height: 65%;
+	// 	display: flex;
+	// 	background-color: aqua;
+	// 	.leftFormContainer,
+	// 	.rightFormContainer {
+	// 		flex: 1;
+	// 		padding: 1%;
+
+	// 		form {
+	// 			display: flex;
+	// 			flex-wrap: wrap;
+	// 			flex-direction: column;
+	// 			gap: 20px;
+	// 			.formInput {
+	// 				width: 100%;
+	// 				input,
+	// 				textarea {
+	// 					width: 100%;
+	// 				}
+	// 			}
+
+	// 			.dateContainer {
+	// 				display: flex;
+	// 				justify-content: space-between;
+	// 			}
+
+	// 			.buttonContainer {
+	// 				display: flex;
+	// 				justify-content: space-around;
+	// 			}
+
+	// 			.checkboxContainer {
+	// 				display: flex;
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	.formContainer {
+		-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+		box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+		border-radius: 5px;
+		margin: 2%;
+		height: 65%;
+		form {
+			display: flex;
+			padding: 2%;
+			flex-wrap: wrap;
+			gap: 20px;
+
+			.leftFormContainer,
+			.rightFormContainer {
+				flex: 1;
+				.formInput {
+					width: 80%;
+					input,
+					textarea {
+						width: 100%;
+					}
+				}
+				.dateContainer {
+					display: flex;
+					justify-content: space-between;
+					width: 80%;
+				}
+				// .buttonContainer {
+				// 	display: flex;
+				// 	justify-content: space-evenly;
+				// }
+			}
+		}
+		// .leftFormContainer,
+		// .rightFormContainer {
+		// 	flex: 1;
+		// 	padding: 1%;
+
+		// 	form {
+		// 		display: flex;
+		// 		flex-wrap: wrap;
+		// 		flex-direction: column;
+		// 		gap: 20px;
+		// 		.formInput {
+		// 			width: 100%;
+		// 			input,
+		// 			textarea {
+		// 				width: 100%;
+		// 			}
+		// 		}
+
+		// 		.dateContainer {
+		// 			display: flex;
+		// 			justify-content: space-between;
+		// 		}
+
+		// 		.buttonContainer {
+		// 			display: flex;
+		// 			justify-content: space-around;
+		// 		}
+
+		// 		.checkboxContainer {
+		// 			display: flex;
+		// 		}
+		// 	}
+		//}
+	}
+}

@@ -1,0 +1,124 @@
+.dashboard {
+	flex: 6;
+	background-color: #f9f9f9;
+	.welcomeContainer {
+		display: flex;
+		flex-direction: column;
+		margin: 15px 0px 0px 20px;
+		.dateSection {
+			font-weight: 500;
+			font-size: 14px;
+			color: rgb(156, 147, 147);
+		}
+		.greatings {
+			font-size: 28px;
+			font-weight: bold;
+		}
+	}
+
+	.mainContainer {
+		display: flex;
+		padding: 5px 20px;
+
+		.chartContainer {
+			flex: 2;
+			align-items: center;
+			padding: 20px;
+			-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+			box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+			border-radius: 5px;
+			background-color: #fff;
+
+			.topContainer {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				color: gray;
+				.title {
+					font-weight: bold;
+					font-size: 16px;
+					color: rgb(156, 147, 147);
+				}
+			}
+
+			.chartMainContainer {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 20px;
+			}
+
+			.summary {
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				width: 100%;
+				margin-top: 30px;
+				.item {
+					text-align: center;
+					.itemTitle {
+						font-size: 16px;
+						font-weight: 500;
+						color: gray;
+					}
+					.itemResult {
+						display: flex;
+						align-items: center;
+						font-size: 14px;
+						margin-top: 10px;
+
+						&.positive {
+							color: green;
+						}
+
+						&.negative {
+							color: red;
+						}
+						.resultStats {
+							font-size: 16px;
+							font-weight: 500;
+						}
+					}
+				}
+			}
+		}
+
+		.featuredTaskSection {
+			flex: 3;
+			-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+			box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+			border-radius: 5px;
+			padding: 20px;
+			margin: 0 0 0 20px;
+			background-color: #fff;
+
+			.tableTitle {
+				font-weight: bold;
+				font-size: 16px;
+				color: rgb(156, 147, 147);
+				margin-bottom: 15px;
+			}
+			.tableSection {
+				.status {
+					padding: 5px;
+					border-radius: 5px;
+
+					&.InProgress {
+						color: goldenrod;
+						background-color: rgba(189, 189, 3, 0.103);
+					}
+
+					&.Completed {
+						color: green;
+						background-color: rgba(25, 208, 31, 0.199);
+					}
+
+					&.NotStarted {
+						color: red;
+						background-color: rgba(244, 43, 43, 0.173);
+					}
+				}
+			}
+		}
+	}
+}

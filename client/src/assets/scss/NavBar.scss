@@ -1,0 +1,54 @@
+.navbar {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: black;
+	background-color: #fff;
+	justify-content: space-between;
+	padding: 0px 20px;
+
+	.logoContainer {
+		font-size: 25px;
+		font-weight: bolder;
+		color: black;
+	}
+
+	.items {
+		display: flex;
+		align-items: center;
+
+		.item {
+			display: flex;
+			align-items: center;
+			margin-right: 20px;
+			position: relative;
+			cursor: pointer;
+
+			.icon {
+				font-size: 20px;
+			}
+
+			.avatar {
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+			}
+
+			.counter {
+				width: 15px;
+				height: 15px;
+				background-color: #da0037;
+				color: white;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 10px;
+				position: absolute;
+				top: -5px;
+				right: -5px;
+			}
+		}
+	}
+}
